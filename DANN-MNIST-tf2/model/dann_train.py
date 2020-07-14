@@ -139,7 +139,7 @@ class MNIST2MNIST_M_DANN(object):
                     best_val_loss = val_loss
                 if val_image_cls_acc >= best_val_image_cls_acc:
                     best_val_image_cls_acc = val_image_cls_acc
-        self.dann_model.save_weight(os.path.join(checkpoint_dir, "trained_dann_mnist.h5"))
+        self.dann_model.save(os.path.join(checkpoint_dir, "trained_dann_mnist.h5"))
         print('\n----------- end to train -----------\n')
 
     def fit_one_epoch(self, train_source_datagen, train_target_datagen, train_iter_num, ep):
