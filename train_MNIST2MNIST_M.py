@@ -30,7 +30,7 @@ def run_main():
     init_learning_rate = 1e-2
     momentum_rate = 0.9
     batch_size = 256
-    epoch = 2000
+    epoch = 5000
     pre_model_path = None
     checkpoints_dir = os.path.abspath("./checkpoints/MNIST2MNIST_M/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size))
     logs_dir = os.path.abspath("./logs/MNIST2MNIST_M/SGD-lr={0}-momentum={1}/batch_size={2}".format(init_learning_rate,momentum_rate,batch_size))
