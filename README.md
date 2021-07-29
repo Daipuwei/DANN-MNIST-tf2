@@ -44,13 +44,13 @@ python train_MNIST2MNIST_M.py
 
 首先是超参数**学习率**和**梯度反转层参数**$\lambda$在训练过程中的数据可视化。
 
-![Image text](img-3yqfw4ve-1627572978876)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/hyperparameter.png#pic_center)
+![Image text](img-3yqfw4ve-1627572978876)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/hyperparameter.png #pic_center)
 
 接着是训练数据集和验证数据集的**图像分类精度**和**域分类精度**在训练过程中的数据可视化，其中蓝色代表训练集，红色代表验证集。
-![Image text](img-qQ7B4IuJ-1627573076952)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/acc.png#pic_center)
+![Image text](img-qQ7B4IuJ-1627573076952)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/acc.png #pic_center)
 
 最后是训练数据集和验证数据集的**图像分类损失**和**域分类损失**在训练过程中的数据可视化，其中蓝色代表训练集，红色代表验证集。
-![Image text](img-OCYptwvW-1627573176856)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/loss.png#pic_center)
+![Image text](img-OCYptwvW-1627573176856)(https://github.com/Daipuwei/DANN-MNIST-tf2/blob/master/image/loss.png #pic_center)
 
 
 #  相关博客资料
