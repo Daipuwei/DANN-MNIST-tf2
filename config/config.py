@@ -75,5 +75,5 @@ class config(object):
             for key,value in self.__dict__.items():
                 if key in ["checkpoints_dir","logs_dir","config_dir"]:
                     value = os.path.join(value,time)
-                s = "{0}:{1}\n".format(key,value)
-                f.write(s)
+                    s = key+": "+value+"\n"
+                    f.write(s)
