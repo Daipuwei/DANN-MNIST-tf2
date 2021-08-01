@@ -23,8 +23,11 @@
 
 # How to train
 
- 首先下载[BSDS500数据集](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz) ，放在`model_data/dataset`路径下。
+ 首先下载[BSDS500数据集](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz) ，放在`model_data/dataset`路径下。其下载路径如下：
+ - 官网：[BSDS500数据集](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz) 
+ -  github：[BSDS500数据集](https://github.com/Daipuwei/DANN-MNIST-tf2/releases/download/master/BSR_bsds500.zip) 
 
+ 
 然后执行`python create_mnistm.py`生成MNIST-M数据集，根据自己需要修改`create_mnistm.py`中`BST_PATH`、`mnist_dir`和`mnistm _dir
 `，默认路径如下：
 ```python
